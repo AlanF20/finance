@@ -12,6 +12,9 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundImage: {
+        'overview': "url('../../public/icon-nav-overview.svg')"
+      }
     },
   },
   plugins: [],
