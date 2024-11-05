@@ -3,8 +3,9 @@ import { textPreset1, textPreset4 } from "../fonts";
 
 export default function Card({ title, value, primary }: { title: string, value: string, primary: boolean }) {
 	return (
-		<div className={clsx("flex flex-col bg-white p-[20px] rounded-[12px] gap-[12px]", {
-			'bg-black': primary
+		<div className={clsx("flex flex-col  p-[20px] rounded-[12px] gap-[12px]", {
+			'bg-black': primary,
+			'bg-white': !primary
 		})}>
 			<p className={clsx(`${textPreset4}`, {
 				'text-white': primary,
