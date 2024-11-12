@@ -3,7 +3,7 @@ import { textPreset1, textPreset4 } from "../fonts";
 
 export default function Card({ title, value, primary }: { title: string, value: string, primary: boolean }) {
 	return (
-		<div className={clsx("flex flex-col  p-[20px] rounded-[12px] gap-[12px]", {
+		<div className={clsx("w-full flex flex-col  p-[20px] rounded-[12px] gap-[12px] md:max-w-[345px]", {
 			'bg-black': primary,
 			'bg-white': !primary
 		})}>
