@@ -19,10 +19,10 @@ export default function Pots(){
 				</div>
 			</div>
 			<div className="w-full flex flex-wrap gap-[16px]">
-				<ColoredCard title="Savings" value={159} sideColor="--secGreen" />
-				<ColoredCard title="Gift" value={40} sideColor="--secCyan" />
-				<ColoredCard title="Concert Ticket" value={110} sideColor="--secNavy" />
-				<ColoredCard title="New Laptop" value={10} sideColor="--secYellow" />
+				<ColoredCard title="Savings" value={159} bgSideColor={"bg-[--secGreen]"} />
+				<ColoredCard title="Gift" value={40} bgSideColor={"bg-[--secCyan]"} />
+				<ColoredCard title="Concert Ticket" value={110} bgSideColor={"bg-[--secNavy]"} />
+				<ColoredCard title="New Laptop" value={10} bgSideColor={"bg-[--secYellow]"} />
 			</div>
 		</section>
 	)
