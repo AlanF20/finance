@@ -1,7 +1,9 @@
+'use client'
 import { Summary } from "@/app/ui/dashboard/mainContent/Summary";
 import { textPreset1 } from "@/app/ui/fonts";
 import Transaction from "@/app/ui/dashboard/mainContent/Transaction";
 import Pots from "@/app/ui/dashboard/mainContent/Pots";
+import Budgets from "@/app/ui/dashboard/mainContent/Budgets";
 
 export default function Dashboard() {
 	return (
@@ -10,6 +12,7 @@ export default function Dashboard() {
 			<Summary />
 			<Pots />
 			<Transaction />
+			<Budgets />
 		</>
 	)
 }
